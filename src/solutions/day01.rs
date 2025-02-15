@@ -2,11 +2,7 @@ use std::fs::File;
 use std::io::{self, BufRead};
 use std::path::Path;
 
-// "input/day01.txt"
-
 pub fn solve() {
-    // let content = fs::read_to_string("input/day01.txt")
-    //     .expect("Could not open the text file");
 
     if let Ok(lines) = read_lines("input/day01.txt") {
         let mut v1: Vec<i32> = Vec::new();
